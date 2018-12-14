@@ -1,1 +1,1 @@
-Attribute VB_Name = "Test_RÃ©solution"
+Attribute VB_Name = "Test_Résolution"
