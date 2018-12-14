@@ -79,8 +79,8 @@ End Sub
 Private Sub Convertir_2Niveaux(coll1 As Collection, coll2 As Collection)
 Dim j As Integer 'comteur de la liste coll2
 Dim sousNiveau As Boolean 'est-ce qu'il y a un sous niveau
-Dim rowOffset As Integer 'reprÃ©sente le dÃ©calage du aux niveaux mutltiples
-Dim currRow As Integer 'reprÃ©sente la ligne traiter actuellement
+Dim rowOffset As Integer 'représente le décalage du aux niveaux mutltiples
+Dim currRow As Integer 'représente la ligne traiter actuellement
 rowOffset = 0
 j = 1
         Selection.TypeParagraph
@@ -141,5 +141,5 @@ Sub Suppression_Reference(champ As String)
 End Sub
 
 Sub newSubGit()
-    ' :? webed
+ ' :?
 End Sub

@@ -140,12 +140,8 @@ Private Sub Test_Traitement_Emplacements_Obligatoires()
     Call Charger_FS_Memoire
 '    Call Traitement_Automatique_Emplacements_Obligatoires
 End Sub
-Private Function toto() As Resultat_Filtrage
-    toto.Compteur_Blocs_Trouves = 4
-    toto.Premier_Bloc(1, 0) = "XXXXXXX"
-End Function
-Private Sub xyz()
-    Debug.Print toto.Compteur_Blocs_Trouves
-    Debug.Print "B = " & toto.Premier_Bloc(1, 4)
-    Debug.Print "id = " & toto.Premier_Bloc(1, 0)
+
+Private Sub newsub()
+Debug.Print "hello"
 End Sub
+
