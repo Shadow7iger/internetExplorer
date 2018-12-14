@@ -13,6 +13,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
 Option Explicit
 Dim Tab_IMG(7, 2) As String       ' Table des noms d'insertion pour les images, avec flag de verification de compatibilite
 '

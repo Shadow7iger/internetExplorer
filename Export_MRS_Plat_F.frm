@@ -13,6 +13,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
 Option Explicit
 Const mrs_CopieSimple As String = "Copie Simple"
 Const mrs_CopieContenuBlocMRS As String = "Copie Contenu Bloc MRS"
