@@ -139,7 +139,3 @@ Sub Suppression_Reference(champ As String)
         If InStr(1, Field.Code, """" & champ & """") Then Field.Delete
     Next Field
 End Sub
-
-Sub newSubGit()
- ' :?
-End Sub
