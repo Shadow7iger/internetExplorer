@@ -1,3 +1,6 @@
 *.dotm
 *.frm
 *.frx
+*.tmp
+*
+!*.bas
