@@ -20,6 +20,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Option Explicit
 Dim Nb_Paragraphes As Long
 Dim Nb_Paragraphes_Traites As Long
