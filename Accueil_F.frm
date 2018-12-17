@@ -13,9 +13,6 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-
-
-
 Option Explicit
 Const mrsPwTeamV As String = "support"
 Private Sub Fermer_Click()
@@ -24,6 +21,10 @@ Private Sub Fermer_Click()
 End Sub
 
 Private Sub Label4_Click()
+
+End Sub
+
+Private Sub Label7_Click()
 
 End Sub
 

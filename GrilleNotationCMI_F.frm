@@ -13,17 +13,6 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-
-
-
-
-
-
-
-
-
-
-
 Option Explicit
 '
 '   UserForm specifique SOCABAT
@@ -67,8 +56,8 @@ Param = mrs_Aucun
 '
     Donnees_Mises_jour = True
     
-    If option1.Value = True Then dnota1 = 0
-    If option2.Value = True Then dnota1 = 0.5
+    If Option1.Value = True Then dnota1 = 0
+    If Option2.Value = True Then dnota1 = 0.5
     If option3.Value = True Then dnota1 = 1
     If option6.Value = True Then dnota3 = 1
     If option7.Value = True Then dnota3 = 0
@@ -342,8 +331,8 @@ MacroEnCours = "UserForm_initialize - GrilleNotationCMI"
 Param = mrs_Aucun
 On Error GoTo Erreur
 
-    If ActiveDocument.grille_note1.Text = "0" Then option1.Value = True
-    If ActiveDocument.grille_note1.Text = "0,5" Then option2.Value = True
+    If ActiveDocument.grille_note1.Text = "0" Then Option1.Value = True
+    If ActiveDocument.grille_note1.Text = "0,5" Then Option2.Value = True
     If ActiveDocument.grille_note1.Text = "1" Then option3.Value = True
     
     'If ActiveDocument.grille_note2.Text = "0" Then option4.Value = True

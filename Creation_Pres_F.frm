@@ -13,17 +13,6 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-
-
-
-
-
-
-
-
-
-
-
 Option Explicit
 Const locChapitre As Integer = 1
 Const locModule As Integer = 2
@@ -164,7 +153,7 @@ StatusBar = Texte_Barre_Etat
         GoTo Sortie
     End If
     
-    If Module_existe = False And Me.option1 = True Then
+    If Module_existe = False And Me.Option1 = True Then
         Prm_Msg.Texte_Msg = Messages(17, mrs_ColMsg_Texte)
         Prm_Msg.Contexte_MsgBox = vbOKOnly + vbCritical
         reponse = Msg_MW(Prm_Msg)
@@ -183,8 +172,8 @@ StatusBar = Texte_Barre_Etat
 
     Creer_Pres
     
-    If Me.option1 = True Then Creer_Slides_Option1
-    If Me.option2 = True Then Creer_Slides_Option2
+    If Me.Option1 = True Then Creer_Slides_Option1
+    If Me.Option2 = True Then Creer_Slides_Option2
 
 Sortie:
     Me.Show

@@ -13,17 +13,6 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-
-
-
-
-
-
-
-
-
-
-
 Dim Bloc_En_Cours As String
 Const mrs_BlocUI As String = "Unite d'information"
 Const mrs_BlocTexte As String = "Texte"
