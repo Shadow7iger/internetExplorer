@@ -21,6 +21,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Option Explicit
 Private Sub Arreter_Click()
 MacroEnCours = "Arreter_Click"
