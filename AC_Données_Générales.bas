@@ -1,10 +1,10 @@
-Attribute VB_Name = "AC_DonnÈes_GÈnÈrales"
+Attribute VB_Name = "AC_Donn√©es_G√©n√©rales"
 '
-'   Version de rÈfÈrence du 05/01/2018
-'
-Public Const mrs_Texte_RNT As String = "Le chemin [£1] n'a pas ÈtÈ trouvÈ. Contactez le support."
-Public Const mrs_Texte_Doc_Inhibee As String = "Les boutons d'accËs £1 ne peuvent plus Ítre utilisÈs jusqu'‡ la rÈsolution du problËme."
-Public Const mrs_Texte_FNT As String = "Le fichier ""£1"" n'a pas ÈtÈ trouvÈ. Contactez le support."
+'   Version de r√©f√©rence du 05/01/2018
+' testeeeeee
+Public Const mrs_Texte_RNT As String = "Le chemin [¬£1] n'a pas √©t√© trouv√©. Contactez le support."
+Public Const mrs_Texte_Doc_Inhibee As String = "Les boutons d'acc√®s ¬£1 ne peuvent plus √™tre utilis√©s jusqu'√† la r√©solution du probl√®me."
+Public Const mrs_Texte_FNT As String = "Le fichier ""¬£1"" n'a pas √©t√© trouv√©. Contactez le support."
 
 Public Const mrs_Sepr As String = "\"
 Public Const mrs_Rep_Logos As String = "LOGOS"
@@ -41,7 +41,7 @@ Global Verif_Chemin_Logos As Boolean
 Global Verif_Chemin_Pictos As Boolean
 Global Verif_Chemin_Images As Boolean
 '
-'  Chemins globaux relatifs ‡ la DOCUMENTATION utilisateur
+'  Chemins globaux relatifs √† la DOCUMENTATION utilisateur
 '
 Global Chemin_Documentation As String
 Global Chemin_Tutos As String
@@ -67,7 +67,7 @@ Public Const mrs_Rep_MRS As String = "MRS"
 ' Chemins TECHNIQUE
 '
 Global Chemin_Templates As String
-Public Const mrs_Nom_Fichier_Prms_Extn As String = "ParamËtres_Extension.docx"
+Public Const mrs_Nom_Fichier_Prms_Extn As String = "Param√®tres_Extension.docx"
 Global Verif_Fichier_Prms_Extn As Boolean
 Public Const mrs_Fichier_Modele_Blocs As String = "Blocs.docx"
 Global Verif_Fichier_Modele_Blocs As Boolean
@@ -93,7 +93,7 @@ Public Const mrs_Fichier_Menus As String = "Menus.dat"
 Global Verif_Fichier_Menus As Boolean
 Public Const mrs_Fichier_Ruban As String = "Ruban.dat"
 Global Verif_Fichier_Ruban As Boolean
-Public Const mrs_NomFichierDesc As String = "Liste_Descripteurs_SpÈciaux.docx"
+Public Const mrs_NomFichierDesc As String = "Liste_Descripteurs_Sp√©ciaux.docx"
 Global Verif_Fichier_Desc As Boolean
 
 Global Chemin_User As String
@@ -114,34 +114,34 @@ Global Verif_Chemin_User As Boolean
 Public Const mrs_Rep_User As String = "User"
 
 Global Verif_Chemin_Parametrage As Boolean
-Public Const mrs_Rep_Parametrage As String = "ParamÈtrage"
-Public Const mrs_Nom_Fichier_Desc_Spcx As String = "Liste_Descripteurs_SpÈciaux.docx"
+Public Const mrs_Rep_Parametrage As String = "Param√©trage"
+Public Const mrs_Nom_Fichier_Desc_Spcx As String = "Liste_Descripteurs_Sp√©ciaux.docx"
 Global Verif_Chemin_Theme As Boolean
 Public Const mrs_Rep_Theme As String = "Document Themes\Theme Colors"
 
 Global Fichier_Prms_Extn As Document
 Global Fichier_Prms_Extn_Test As Document
-Public Const mrs_Nom_Fichier_Prms_User As String = "ParamËtres_User.docx"
+Public Const mrs_Nom_Fichier_Prms_User As String = "Param√®tres_User.docx"
 Public Const mrs_Nom_Modele_Bloc As String = "Bloc.docx"
-Public Const mrs_TypeModeleDemo As String = "DÈmo"
-Public Const mrs_TypeModeleDepannage As String = "DÈpannage"
+Public Const mrs_TypeModeleDemo As String = "D√©mo"
+Public Const mrs_TypeModeleDepannage As String = "D√©pannage"
 Public Const mrs_TypeModeleNormal As String = ""
 Public Const mrs_TypeModeleAIOC As String = "AIOC"
 '
-' Variables et constantes liÈes aux paramËtres externes
+' Variables et constantes li√©es aux param√®tres externes
 '
 Global Prms_Extn_Charge As Boolean
 
-Public Const mrs_Signet_Modele As String = "P_Nom_ModËles_MRS"
-Public Const mrs_Signet_Modele_dotx As String = "P_Nom_ModËle_dotx"
+Public Const mrs_Signet_Modele As String = "P_Nom_Mod√®les_MRS"
+Public Const mrs_Signet_Modele_dotx As String = "P_Nom_Mod√®le_dotx"
 Public Const mrs_Signet_NomVBA As String = "P_Nom_VBA"
 Public Const mrs_Signet_FichierExport As String = "P_Fichier_Export"
 Public Const mrs_Signet_VrsModele As String = "P_Version"
 Public Const mrs_Signet_NomClient As String = "P_Client"
-Public Const mrs_Signet_TypeModele As String = "P_Type_ModËle"
+Public Const mrs_Signet_TypeModele As String = "P_Type_Mod√®le"
 Public Const mrs_Signet_MailAIOC As String = "P_Mail_AIOC"
 Public Const mrs_Signet_TitreMsgBox As String = "P_Titre_Messages"
-Public Const mrs_Signet_DateVrs As String = "P_Date_ModËle"
+Public Const mrs_Signet_DateVrs As String = "P_Date_Mod√®le"
 Public Const mrs_Signet_TelBur As String = "P_Tph_Artecomm"
 Public Const mrs_Signet_TelSup As String = "P_Tph_Support"
 Public Const mrs_Signet_Fax As String = "P_Fax_Artecomm"
@@ -152,7 +152,7 @@ Public Const mrs_Signet_CouleurTraitFragment As String = "P_Fgt_Couleur_Trait"
 Public Const mrs_Signet_StyleTraitFragment As String = "P_Fgt_Style_Trait"
 Public Const mrs_Signet_EpaisseurTraitFragment As String = "P_Fgt_Epaisseur_Trait"
 Public Const mrs_Signet_TraitFragmentPleineLargeur As String = "P_Fgt_Trait_Pleine_Largeur"
-Public Const mrs_Signet_SF_Colle As String = "P_Fgt_UI_CollÈ"
+Public Const mrs_Signet_SF_Colle As String = "P_Fgt_UI_Coll√©"
 Public Const mrs_Signet_LargeurCCL As String = "P_Fgt_Largeur_CCL"
 Public Const mrs_Signet_Correction_Largeur_UI As String = "P_Fgt_Correction_Largeur"
 Public Const mrs_Signet_Correction_LeftIndent_UI As String = "P_Fgt_Correction_Retrait"
@@ -186,19 +186,19 @@ Public Const mrs_Signet_Chemin_Pictos As String = "P_Chemin_Pictos"
 Public Const mrs_Signet_Chemin_Logos As String = "P_Chemin_Logos"
 Public Const mrs_Signet_Chemin_Images As String = "P_Chemin_Images"
 Public Const mrs_Signet_Chemin_Documentation As String = "P_Chemin_Documentation"
-Public Const mrs_Signet_Chemin_Tutos As String = "P_Chemin_VidÈos"
+Public Const mrs_Signet_Chemin_Tutos As String = "P_Chemin_Vid√©os"
 Public Const mrs_Signet_Chemin_PDF As String = "P_Chemin_PDF"
 Public Const mrs_Signet_Chemin_MRS_Base As String = "P_Chemin_MRS_Base"
-Public Const mrs_Signet_Chemin_Memos As String = "P_Chemin_MÈmos"
+Public Const mrs_Signet_Chemin_Memos As String = "P_Chemin_M√©mos"
 Public Const mrs_Signet_Chemin_User As String = "P_Chemin_User"
 
 Public Const mrs_Signet_Tbo_Lang As String = "P_Langage"
 
 Public Const mrs_Signet_Qualif_MT As String = "P_Qualif_MT"
-Public Const mrs_Signet_Entite As String = "P_EntitÈ"
-Public Const mrs_Signet_Metier As String = "P_MÈtier"
+Public Const mrs_Signet_Entite As String = "P_Entit√©"
+Public Const mrs_Signet_Metier As String = "P_M√©tier"
 Public Const mrs_Signet_Produit As String = "P_Produit"
-Public Const mrs_Signet_Hebergement As String = "P_HÈbergement"
+Public Const mrs_Signet_Hebergement As String = "P_H√©bergement"
 Public Const mrs_Signet_ProductFamily As String = "P_ProductFamily"
 Public Const mrs_Signet_Product As String = "P_Product"
 Public Const mrs_Signet_Offertype As String = "P_Offertype"
@@ -211,37 +211,37 @@ Public Const mrs_Signet_Fcts_Client As String = "P_Fcts_Client"
 '   Variables GLOBALES
 '
 Public Langue_Active$                            ' Langue du document en cours
-Public Format_Section$                           ' Format de la section courante lors de l'Èvaluation pour insertion de composant
-Public FinDocument As Boolean                    ' DÈtection de la fin de document
+Public Format_Section$                           ' Format de la section courante lors de l'√©valuation pour insertion de composant
+Public FinDocument As Boolean                    ' D√©tection de la fin de document
 Public Creation_Document As Boolean
-Public Variables_Creees As Boolean               ' Indicateur de mÈmorisation que l'on a crÈÈ les variables nÈcessaires au bon fonctionnement des inerstions tableaux et fragments
-Public Nombre_Passages_Image As Long             ' Indicateur de mÈmorisation de l'ouverture de la fonction Images
-Public Nombre_Passages_Composants As Long        ' Indicateur de mÈmorisation de l'ouverture de la fonction Composants
-Public Nombre_Passages_PPT As Long               ' Indicateur de mÈmorisation de l'ouverture de la fonction CrÈation Powerpoint
-Public Dernier_Tableau_MRS As Long               ' N∞ du dernier tableau MRS crÈÈ dans le document
-Public Dernier_Fragment  As Long                 ' N∞ du dernier fragment (ou sf, ou fgt vide) crÈÈ dans le document courant
+Public Variables_Creees As Boolean               ' Indicateur de m√©morisation que l'on a cr√©√© les variables n√©cessaires au bon fonctionnement des inerstions tableaux et fragments
+Public Nombre_Passages_Image As Long             ' Indicateur de m√©morisation de l'ouverture de la fonction Images
+Public Nombre_Passages_Composants As Long        ' Indicateur de m√©morisation de l'ouverture de la fonction Composants
+Public Nombre_Passages_PPT As Long               ' Indicateur de m√©morisation de l'ouverture de la fonction Cr√©ation Powerpoint
+Public Dernier_Tableau_MRS As Long               ' N¬∞ du dernier tableau MRS cr√©√© dans le document
+Public Dernier_Fragment  As Long                 ' N¬∞ du dernier fragment (ou sf, ou fgt vide) cr√©√© dans le document courant
 Public Chemin_Modifie As Boolean                 ' Indicateur de modification d'un des chemins de stockage
-Public StopMacro As Boolean                      ' Flag utilisÈ pour bloquer l'exÈcution de la macro en cas de dÈfaut protection
-Public Compte_Passages As Long                   ' DonnÈe de comptage du nb d'exÈcution des macros, pour les modËles DEMO
+Public StopMacro As Boolean                      ' Flag utilis√© pour bloquer l'ex√©cution de la macro en cas de d√©faut protection
+Public Compte_Passages As Long                   ' Donn√©e de comptage du nb d'ex√©cution des macros, pour les mod√®les DEMO
 Public Marquer_Phrase As Boolean                 ' Indicateur de marquage de phrase
-Public Arreter_Scan As Boolean                   ' Flag d'arrÍt de scan pour les fonctions LCP et SNM et ponctuation
+Public Arreter_Scan As Boolean                   ' Flag d'arr√™t de scan pour les fonctions LCP et SNM et ponctuation
 Public Nb_Mots_Phrase As Long                    ' Comptage du nb de mots de l pharse en cours tel que fourni par Word
-Public Style_En_Cours As String                  ' Style du paragraphe en cours pour passage ‡ forme d'affichage
-Public Cas_Ponctuation As String                 ' Cas de ponctuation ayant conduit ‡ passer la main
-Public Conseil_Ponctuation As String             ' Cas de ponctuation ayant conduit ‡ passer la main
+Public Style_En_Cours As String                  ' Style du paragraphe en cours pour passage √† forme d'affichage
+Public Cas_Ponctuation As String                 ' Cas de ponctuation ayant conduit √† passer la main
+Public Conseil_Ponctuation As String             ' Cas de ponctuation ayant conduit √† passer la main
 Public Dernier_Caractere As String               ' Pour passer le dernier caractere du paragraphe en cours
-Public Correction_Ponctuation_Auto As Boolean    ' Indicateur de demande de correction automatique de la ponctuation dans la fenÍtre ad hoc
-Public Indicateur_Phrase_Modifiee As Boolean     ' Indicateur de phrase modifiÈe dans la fenÍtre phrases longues
-Public Phrase_Modifiee As String                 ' Phrase aprËs modification dans la fenÍtre phrases longues
-Public Const Nb_Styles_MRS As Integer = 32       ' Nombre de styles MRS effectivement utilisÈs
+Public Correction_Ponctuation_Auto As Boolean    ' Indicateur de demande de correction automatique de la ponctuation dans la fen√™tre ad hoc
+Public Indicateur_Phrase_Modifiee As Boolean     ' Indicateur de phrase modifi√©e dans la fen√™tre phrases longues
+Public Phrase_Modifiee As String                 ' Phrase apr√®s modification dans la fen√™tre phrases longues
+Public Const Nb_Styles_MRS As Integer = 32       ' Nombre de styles MRS effectivement utilis√©s
 Public Styles_MRS(Nb_Styles_MRS) As String       ' Tableau contenant tous les styles MRS disponibles
-Public StMRS_J_FaG(Nb_Styles_MRS) As Boolean     ' Tableau qui accompagne les styles et qui indique si le paragraphe est concernÈ par la bascule Fer ‡ Gauche / JustifiÈ
-Public StMRS_Langue(Nb_Styles_MRS) As Boolean    ' Tableau qui accompagne les styles et qui indique si le paragraphe est concernÈ par le contrÙle linguistique
-Public StMRS_Police(Nb_Styles_MRS) As Boolean    ' Tableau qui accompagne les styles et qui indique si le paragraphe est concernÈ par le chgt Èventuel de police
-Public Tableau_Styles_Rempli As Boolean          ' Indicateur qui permet de ne pas rÈactiver le remplissage du tableau styles s'il a dÈj‡ eu lieu
-Public Correction_Ponctuation_Effectuee As Boolean ' Indicateur pour dÈtecter si la correctyion de ponctuation a ÈtÈ passÈe au moins une fois pdt la session
+Public StMRS_J_FaG(Nb_Styles_MRS) As Boolean     ' Tableau qui accompagne les styles et qui indique si le paragraphe est concern√© par la bascule Fer √† Gauche / Justifi√©
+Public StMRS_Langue(Nb_Styles_MRS) As Boolean    ' Tableau qui accompagne les styles et qui indique si le paragraphe est concern√© par le contr√¥le linguistique
+Public StMRS_Police(Nb_Styles_MRS) As Boolean    ' Tableau qui accompagne les styles et qui indique si le paragraphe est concern√© par le chgt √©ventuel de police
+Public Tableau_Styles_Rempli As Boolean          ' Indicateur qui permet de ne pas r√©activer le remplissage du tableau styles s'il a d√©j√† eu lieu
+Public Correction_Ponctuation_Effectuee As Boolean ' Indicateur pour d√©tecter si la correctyion de ponctuation a √©t√© pass√©e au moins une fois pdt la session
 Public Appel_Ponctuation_Enregistrement As Boolean ' Indicateur de lancement de la macro de correction ponctuation par la macro d'enregsitrement
-Public Revisions_Suivies As Boolean               ' Indicateur de suivi des rÈvisions sur le document en cours
+Public Revisions_Suivies As Boolean               ' Indicateur de suivi des r√©visions sur le document en cours
 Public Phrase_En_Cours As Range
 Public reponse As String
 '
@@ -252,49 +252,49 @@ Public Const mrs_FormatA3por As String = "A3por"  ' Code du format de section A3
 Public Const mrs_FormatA5pay As String = "A5pay"  ' Code du format de section A5 paysage
 Public Const mrs_FormatA5por As String = "A5por"  ' Code du format de section A5 portrait
 '
-Public Const mrs_SuiteF As String = " (suite)"           ' Texte franÁais pour suite
+Public Const mrs_SuiteF As String = " (suite)"           ' Texte fran√ßais pour suite
 Public Const mrs_SuiteE_court As String = " (cont'd)"    ' Texte anglais pour suite sous-fragment
 Public Const mrs_SuiteE_long As String = " (continued)"  ' Texte anglais pour suite module
-Public Const mrs_TexteInsertionImage As String = "InsÈrer l'image dans cette cellule"  ' Texte pour les fragments destinÈs ‡ recevoir des images
-Public Const mrs_TexteLegendeImage As String = "LÈgende de l'image au-dessus"  ' Texte pour les fragments destinÈs ‡ recevoir des images
+Public Const mrs_TexteInsertionImage As String = "Ins√©rer l'image dans cette cellule"  ' Texte pour les fragments destin√©s √† recevoir des images
+Public Const mrs_TexteLegendeImage As String = "L√©gende de l'image au-dessus"  ' Texte pour les fragments destin√©s √† recevoir des images
 '
-'   Nom des variables utilisÈes dans les documents et dans le modËle
+'   Nom des variables utilis√©es dans les documents et dans le mod√®le
 '
 Public Const mrs_InitCompteur As String = "000000"               ' Chaine d'init des compteurs de tableaux et fragments
 '
-'   Nom des variables utilisÈes dans les documents et dans le modËle
+'   Nom des variables utilis√©es dans les documents et dans le mod√®le
 '
-Public Const mrs_VblTableauxMRS As String = "TBX_MRS"            ' Stockage du comptage du nombre de tableaux MRS crÈÈs dans ce document
-Public Const mrs_VblFragments As String = "FRAGMENTS"            ' Stockage du comptage du nombre de tableaux MRS crÈÈs dans ce document
-Public Const mrs_VblReference As String = "REFCE"                ' Stockage de la rÈfÈrence du document
+Public Const mrs_VblTableauxMRS As String = "TBX_MRS"            ' Stockage du comptage du nombre de tableaux MRS cr√©√©s dans ce document
+Public Const mrs_VblFragments As String = "FRAGMENTS"            ' Stockage du comptage du nombre de tableaux MRS cr√©√©s dans ce document
+Public Const mrs_VblReference As String = "REFCE"                ' Stockage de la r√©f√©rence du document
 Public Const mrs_VblDateDoc As String = "DATE"                   ' Stockage du date du document
 Public Const mrs_VblVersionDoc As String = "VERSION"             ' Stockage de la version du document
 Public Const mrs_VblTitreDoc As String = "TITREDOC"              ' Stockage du titre du document
 Public Const mrs_VblTypeDoc As String = "TYPEDOC"                ' Stockage du type du document
 Public Const mrs_VblStatutDoc As String = "STATUT"               ' Stockage du statut du document
-Public Const mrs_VblConfidDoc As String = "CONFID"               ' Stockage du niveau de confidentialitÈ du document
-Public Const mrs_VblModele As String = "MODELE_MRS"              ' Stockage du nom du dernier modËle (si > V86 !) utilisÈ pour m‡jr le document
+Public Const mrs_VblConfidDoc As String = "CONFID"               ' Stockage du niveau de confidentialit√© du document
+Public Const mrs_VblModele As String = "MODELE_MRS"              ' Stockage du nom du dernier mod√®le (si > V86 !) utilis√© pour m√†jr le document
 '
-'   Constantes sur le contrÙle des phrases longues et de la ponctuation
+'   Constantes sur le contr√¥le des phrases longues et de la ponctuation
 '
-Public Const mrs_LongueurPhraseConseillee As Integer = 20        ' Longueur max conseillÈe des phrases dans MRS
+Public Const mrs_LongueurPhraseConseillee As Integer = 20        ' Longueur max conseill√©e des phrases dans MRS
 Public Const mrs_CasPonctuation1 As String = "Cas 1 : le paragraphe de texte ne se termine pas par un signe de ponctuation correct"
-Public Const mrs_ConseilPonctuation1 As String = "CaractËres corrects = . ! ? :"
-Public Const Cars_OK_Fin_TF As String = ".:!?" ' ce sont les 4 caractËres acceptables ‡ la fin d'un paragraphe de type Texte Fragment
-Public Const Cars_NOK_Fin_TF As String = ",;" ' ce sont les 2 caractËres rejetÈs ‡ la fin d'un paragraphe de type Texte Fragment
+Public Const mrs_ConseilPonctuation1 As String = "Caract√®res corrects = . ! ? :"
+Public Const Cars_OK_Fin_TF As String = ".:!?" ' ce sont les 4 caract√®res acceptables √† la fin d'un paragraphe de type Texte Fragment
+Public Const Cars_NOK_Fin_TF As String = ",;" ' ce sont les 2 caract√®res rejet√©s √† la fin d'un paragraphe de type Texte Fragment
 Public Const mrs_CasPonctuation2 As String = "Cas 2 : le paragraphe de liste ne se termine pas par un signe de ponctuation correct"
-Public Const mrs_ConseilPonctuation2 As String = "CaractËres corrects = . ! ? : , ;"
-Public Const Cars_OK_Fin_Liste As String = ".:!?,;" ' ce sont les 6 caractËres acceptables ‡ la fin d'un paragraphe de type Liste
-Public Const mrs_CasPonctuation3 As String = "Cas 3 : le titre ou l'Ètiquette se termine par un caractËre superflu"
-Public Const mrs_ConseilPonctuation3 As String = "CaractËres ‡ Èviter = : , . ; "
-Public Const Cars_NOK_Fin_Etiq As String = ",.;:" ' ce sont les 4 caractËres rejetÈs ‡ la fin d'un paragraphe de type titre ou Ètiquette
+Public Const mrs_ConseilPonctuation2 As String = "Caract√®res corrects = . ! ? : , ;"
+Public Const Cars_OK_Fin_Liste As String = ".:!?,;" ' ce sont les 6 caract√®res acceptables √† la fin d'un paragraphe de type Liste
+Public Const mrs_CasPonctuation3 As String = "Cas 3 : le titre ou l'√©tiquette se termine par un caract√®re superflu"
+Public Const mrs_ConseilPonctuation3 As String = "Caract√®res √† √©viter = : , . ; "
+Public Const Cars_NOK_Fin_Etiq As String = ",.;:" ' ce sont les 4 caract√®res rejet√©s √† la fin d'un paragraphe de type titre ou √©tiquette
 '
-'   Constantes liÈes aux descripteurs
+'   Constantes li√©es aux descripteurs
 '
-Public Const mrs_RefNonrenseignee As String = "RÈfÈrence non renseignÈe"
-Public Const mrs_VrsNonRenseignee As String = "Vrs non renseignÈe"
-Public Const mrs_TitDocNonRenseigne As String = "Titre document non renseignÈ"
-Public Const mrs_TypDocNonRenseigne As String = "Type document non renseignÈ"
+Public Const mrs_RefNonrenseignee As String = "R√©f√©rence non renseign√©e"
+Public Const mrs_VrsNonRenseignee As String = "Vrs non renseign√©e"
+Public Const mrs_TitDocNonRenseigne As String = "Titre document non renseign√©"
+Public Const mrs_TypDocNonRenseigne As String = "Type document non renseign√©"
 Public Const mrs_StatutBrouillon As String = "Brouillon"
 Public Const mrs_StatutProjet As String = "Projet"
 Public Const mrs_StatutFinal As String = "Final"
@@ -326,7 +326,7 @@ Global Type_Evt As String
 Global Texte_Evt As String
 Global Affichage_Basse_Resolution As Boolean
 '
-'   Constantes spÈcifiques ‡ ATEXO
+'   Constantes sp√©cifiques √† ATEXO
 '
 Public Const mrsNb_Produits As Integer = 10
 Global Produits(mrsNb_Produits) As String
