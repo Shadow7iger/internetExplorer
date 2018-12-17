@@ -1,6 +1,6 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} Accueil_F 
-   Caption         =   "MRS Word - La Rédaction Visuelle - Artecomm"
+   Caption         =   "MRS Word - La RÃ©daction Visuelle - Artecomm"
    ClientHeight    =   5130
    ClientLeft      =   15
    ClientTop       =   165
@@ -23,7 +23,7 @@ Attribute VB_Exposed = False
 Option Explicit
 Const mrsPwTeamV As String = "support"
 Private Sub Fermer_Click()
-'test git frm
+'test git frm test bis
     Unload Me
 End Sub
 
