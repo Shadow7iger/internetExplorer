@@ -93,7 +93,7 @@ On Error GoTo Erreur
     
     If reponse = vbCancel Then GoTo Sortie
 '
-'   Pour effacer les phrases mises en forme, on supprimer et on recree le style PTL
+'   Pour effacer les phrases mises en forme, on supprimer et on recree le style PTL brownlee
 '
     Call Suspendre_Suivi_Revisions
     Call Effacer_Marques_Phrases
