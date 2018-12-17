@@ -197,27 +197,6 @@ Dim Type_Doc As String
         Call Ecrire_CDP(cdn_Client_Extn, pex_NomClient, ActiveDocument)
         Call Ecrire_Stats_Blocs_Stockage
     End If
-
-'    Verif_Blocs = True
-'
-'    If ActiveDocument.CustomDocumentProperties(mrsBlocs).Value = mrsOUI Then
-'        Call EDF_DCT.Lister_Emplacements_non_traites
-'    End If
-'
-'    Verif_Blocs = False
-'
-'    If Chemin_Modifie = True Then
-'        Nom_Modele = ActiveDocument.AttachedTemplate.FullName
-'        Documents.Open FileName:=Nom_Modele, visible:=False
-'        With ActiveDocument
-'            .Variables(mrsVblCheminImages).Value = Chemin_Images
-'            .Variables(mrsVblCheminLogos).Value = Chemin_Logos
-'            .Variables(mrsVblCheminComposants).Value = Chemin_Composants
-'            .Close savechanges:=wdSaveChanges
-'        End With
-'        Options.DefaultFilePath(wdPicturesPath) = Chemin_Images
-'        Chemin_Modifie = False
-'    End If
     ActiveDocument.Save
 
 Sortie:
