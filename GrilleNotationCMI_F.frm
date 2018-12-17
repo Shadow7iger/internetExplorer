@@ -15,7 +15,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 '
-'   UserForm specifique SOCABAT
+'   UserForm specifique SOCABATa :)
 '
 Public Donnees_Mises_jour As Boolean
 
