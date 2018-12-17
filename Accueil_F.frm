@@ -13,19 +13,15 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-
-
-
-
-
-
-
-
 Option Explicit
 Const mrsPwTeamV As String = "support"
 Private Sub Fermer_Click()
 'test git frm test bis
     Unload Me
+End Sub
+
+Private Sub Label4_Click()
+
 End Sub
 
 Private Sub MailSup_Click()
