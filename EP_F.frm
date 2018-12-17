@@ -23,6 +23,7 @@ Attribute VB_Exposed = False
 
 
 
+
 'Option Explicit
 Const mrs_Emplacements_XL_Non_traites As Integer = 1
 Const mrs_Emplacements_XL_Tous As Integer = 2

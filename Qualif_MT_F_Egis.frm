@@ -23,6 +23,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Option Explicit
 Private Sub C_Langue_Change()
 MacroEnCours = "C_Langue_Change"

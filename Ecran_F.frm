@@ -23,6 +23,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Option Explicit
 Private Sub UserForm_Initialize()
     Me.WindowsMediaPlayer1.URL = Video_a_Afficher

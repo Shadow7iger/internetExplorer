@@ -24,6 +24,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Option Explicit
 '
 ' Stockage des valeurs dans les descripteurs STD

@@ -22,6 +22,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Option Explicit
 Const mrsCol_Code_Emplact As Integer = 0
 Const mrsCol_Lib_Emplact As Integer = 1
