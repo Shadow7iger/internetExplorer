@@ -16,7 +16,7 @@ Attribute VB_Exposed = False
 Option Explicit
 Dim Tab_IMG(7, 2) As String       ' Table des noms d'insertion pour les images, avec flag de verification de compatibilite
 '
-'   Signification des colonnes
+'   Signification des colons mdr
 '
 Const mrs_NbCol As Integer = 0
 Const mrs_NbLig As Integer = 1
