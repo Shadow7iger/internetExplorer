@@ -22,6 +22,7 @@ Attribute VB_Exposed = False
 
 
 
+
 Option Explicit
 Const locMinDetection As Integer = 11
 Dim Seuil As Integer
