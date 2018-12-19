@@ -273,7 +273,6 @@ Dim Idx As Integer
 
     Set AD = ActiveDocument
 
-    Call Verifier_Resolution_Ecran
     If Affichage_Basse_Resolution = True Then Call Mode_Basse_Resolution
 
     Application.ScreenUpdating = False
